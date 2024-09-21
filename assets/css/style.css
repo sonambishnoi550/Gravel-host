@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+.card_main_hading {
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 46.4px;
+    color: #FCFCFF;
+    max-width: 740px;
+    margin: auto;
+    padding-bottom: 43px;
+}
+
+.custom_container {
+    max-width: 1180px !important;
+    margin: auto;
+}
+.hosting_btn {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24.8px;
+    color: #0D6EFD;
+    box-shadow: 0px 1px 2px 0px #0D0D120A;
+    background: #191921;
+    padding: 12px 14px;
+    text-decoration: none;
+    border-radius: 15px;
+    max-width: 185px;
+    margin: auto !important;
+}
+
+.sec_6_bg {
+    background-color: #1f1f29;
+}
+.py_125{
+    padding-top: 125px;
+    padding-bottom: 125px;
+}
+
+.sec_6_Card {
+    max-width: 100%;
+    min-height: 336px;
+    border-radius: 15px;
+    background: #111116;
+    padding: 20px;
+    text-align: center;
+}
+
+.Card_text {
+    font-family: 'Rubik', sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 26.25px;
+    color: #FFFFFF;
+    padding-top: 36px;
+}
+
+.Card_image {
+    max-width: 100%;
+    height: auto;
+}
+@media(max-width:1200px){
+    .Card_image{
+        width:530px;
+    }
+    .Card_text{
+        padding-top: 20px;
+        margin-bottom: 0;
+    }
+}
+
+@media (max-width: 768.98px) {
+    .card_main_hading {
+        font-size: 30px;
+    }
+
+    .Card_text {
+        font-size: 22px;
+    }
+
+    .sec_6_Card {
+        min-height: 300px;
+    }
+    .py_md_70{
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+}
+@media(max-width:576.99px){
+    .py_sm_48{
+padding-top: 48px;
+padding-bottom: 48px;
+    }
+    .card_main_hading {
+        font-size: 24px;
+        padding-bottom: 24px;
+    }
+    
+    .Card_text {
+        font-size: 16px;
+        margin-top: 20px;
+    }
+}

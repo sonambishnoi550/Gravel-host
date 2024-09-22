@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 .card_main_hading {
     font-family: 'Oswald', sans-serif;
     font-size: 40px;
@@ -29,6 +29,7 @@
     border-radius: 15px;
     max-width: 185px;
     margin: auto !important;
+    white-space: nowrap;
 }
 
 .sec_6_bg {
@@ -100,6 +101,12 @@ padding-bottom: 48px;
     
     .Card_text {
         font-size: 16px;
-        margin-top: 20px;
+        margin-top: 0px;
     }
+}
+@media(max-width:375px){
+    .Card_text {
+            font-size: 16px;
+            margin-top: 10px;
+        }
 }
